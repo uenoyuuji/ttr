@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script src="lib.js"></script>
+<script src="browser_action.js"></script>
+<style>
+#list li {
+  font-size: 90%;
+}
+.title {
+  font-weight: bold;
+  padding-right: 4px;
+}
+.description {
+  padding-right: 4px;
+}
+</style>
+</head>
+<body>
+<p>
+<input id="title" type="text" placeholder="title"></input>
+<textarea id="description" cols="40" rows="8" placeholder="description"></textarea>
+<button id="submit">submit</button>
+</p>
+<p>
+<ul id="list"></ul>
+</p>
+</body>
+</html>
