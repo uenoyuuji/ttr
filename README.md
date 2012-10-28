@@ -1,3 +1,14 @@
-# Install
+ttr
+========================================
 
-download https://github.com/uenoyuuji/ttr/raw/master/ttr.crx and add to Google Chrome
+Task management tool.
+
+
+Install
+----------------------------------------
+
+```bash
+git clone git@github.com:uenoyuuji/ttr.git
+```
+
+Add the directory to your Google Chrome.
